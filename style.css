@@ -1,0 +1,38 @@
+body {
+  background-color: lavender;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.story {
+  width: 500px;
+  height: 60px;
+  border-radius: 5px;
+  border: solid 1px lavender;
+  text-size-adjust: none;
+  resize: none;
+}
+
+#set-story,
+#clear-story {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  border: solid 1px black;
+  background-color: white;
+  cursor: pointer;
+}
